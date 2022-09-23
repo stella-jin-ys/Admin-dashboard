@@ -1,6 +1,6 @@
 .sidebar {
   flex: 1;
-  border-right: 0.5px solid rgb(241, 221, 221);
+  border-right: 0.5px solid rgb(230, 227, 227);
   min-height: 100vh;
   background-color: white;
 
@@ -9,12 +9,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #08cb94;
+    }
   }
-  .logo {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(1, 173, 147);
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
   }
+
   .center {
     padding-left: 10px;
 
@@ -22,36 +29,37 @@
       list-style: none;
       margin: 0;
       padding: 0;
-    }
 
-    .title {
-      font-size: 10px;
-      font-weight: bold;
-      color: #999;
-      margin-top: 15px;
-      margin-bottom: 5px;
-    }
-
-    li {
-      display: flex;
-      align-items: center;
-      padding: 5px;
-      cursor: pointer;
-
-      &:hover {
-        background-color: rgba(194, 241, 225, 0.321);
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 5px;
       }
-    }
-    .icon {
-      font-size: 18px;
-      color: rgb(35, 216, 192);
-    }
 
-    span {
-      font-size: 13px;
-      font-weight: 600;
-      color: #888;
-      margin-left: 10px;
+      li {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #ece8ff;
+        }
+
+        .icon {
+          font-size: 18px;
+          color: #41c8a4;
+        }
+
+        span {
+          font-size: 13px;
+          font-weight: 600;
+          color: #888;
+          margin-left: 10px;
+        }
+      }
     }
   }
 
@@ -64,14 +72,18 @@
       width: 20px;
       height: 20px;
       border-radius: 5px;
-      border: 1px solid aquamarine;
+      border: 1px solid #51f8ce;
       cursor: pointer;
+      margin: 5px;
 
       &:nth-child(1) {
         background-color: whitesmoke;
       }
       &:nth-child(2) {
-        background-color: black;
+        background-color: #333;
+      }
+      &:nth-child(3) {
+        background-color: darkblue;
       }
     }
   }

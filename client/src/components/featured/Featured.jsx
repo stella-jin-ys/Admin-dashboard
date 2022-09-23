@@ -32,7 +32,7 @@ export default function Featured() {
           <div className="item">
             <div className="itemTitle">Last week</div>
             <div className="itemResult">
-              <KeyboardArrowUpIcon fontSize="small" />
+              <KeyboardArrowUpIcon Icon fontSize="small" />
               <div className="resultAmount">$12.5k</div>
             </div>
           </div>
