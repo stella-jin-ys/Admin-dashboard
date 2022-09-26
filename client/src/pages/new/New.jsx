@@ -5,7 +5,7 @@ import { useState } from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 export default function New({ inputs, title }) {
-  const [file, setFile] = useState();
+  const [file, setFile] = useState("");
   return (
     <div className="new">
       <Sidebar />
